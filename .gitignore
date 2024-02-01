@@ -1,3 +1,7 @@
-.terraform
-*.tfstate
-*.tfstate.backup
+global/s3/.terraform
+stage/service/webserver-cluster/.terraform
+stage/data-stores/mysql/.terraform
+
+global/s3/*tfstate*
+stage/service/webserver-cluster/*tfstate*
+stage/data-stores/mysql/*tfstate*
